@@ -1,0 +1,37 @@
+:root {
+    --soft-red: #f66; 
+    --yellow: #fea; 
+    --dark-desaturated-cyan: #1a6;
+    --dark-blue: #065b85;
+    --dark-moderate-cyan: #449;
+    
+    --very-dark-desaturated-blue: #2a3440;
+    --very-dark-grayish-blue: #485260; 
+    --dark-grayish-blue: #5a5f73; 
+    --grayish-blue: #9da3b0; 
+    --white: #fff; 
+  
+    
+    --body-font-size: 18px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+  }
+  body{
+    width: 100%;
+  }
+
+  header{
+    
+  }
