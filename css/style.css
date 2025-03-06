@@ -47,6 +47,11 @@
     color: var(--white);
     background-color: var(--primary);
   }
+  header #logo{
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
 
 
   header  a{
@@ -76,4 +81,9 @@ footer a{
 footer .social-icons{
   display: flex;
   gap: 20px;
+}
+@media (max-width: 600px) {
+  .header {
+    font-size: 1rem;
+  }
 }

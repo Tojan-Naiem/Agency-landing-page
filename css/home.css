@@ -33,7 +33,7 @@
   .info-cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 150vh;
+
   }
   .info-cards .card{
     background-color: var(--card-color);
@@ -58,9 +58,21 @@
     background-image: url('../images/image-transform.jpg');
     background-position: center;
     background-size: cover;
+   
   }
   .info-cards .card-img-2{
     background-image: url('../images/image-stand-out.jpg');
     background-position: center;
     background-size: cover;
+  }
+  .card-img-1, .card-img-2,.card {
+    min-height: 500px; 
+  }
+  @media (max-width: 769px) {
+    .info-cards{
+      grid-template-columns: 1fr;
+      
+    }.hero h1{
+      font-size: 30px;
+    }
   }
