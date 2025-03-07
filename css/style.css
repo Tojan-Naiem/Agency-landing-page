@@ -25,7 +25,7 @@
   ul{
     list-style-type: none;
   }
-  p,a{
+  p,a,label{
     font-family: 'Barlow', sans-serif
   }
   a{

@@ -1,0 +1,52 @@
+:root {
+    --primary:#3dbeff;/* Done*/
+    --hover:#6fcfff;/* Done*/
+    --soft-red: #f66; 
+    --yellow: #fea; 
+    --dark-desaturated-cyan: #1a6;
+    --dark-blue: #065b85;
+    --dark-moderate-cyan: #449;
+    
+    --very-dark-desaturated-blue: #2a3440;
+    --very-dark-grayish-blue: #485260; 
+    --dark-grayish-blue: #5a5f73; 
+    --grayish-blue: #9da3b0; 
+    --white: #fff; /* Done  */
+    --footer-color:#90d4c5;/* Done  */
+    --footer-font-color:#2b7463;/* Done  */
+
+    --body-font-size: 18px;
+  }
+  .contact{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--footer-font-color);
+
+  }
+  .contact form{
+    background-color: var(--primary);
+    display: flex;
+flex-direction: column;
+justify-content: center;
+width: 90%;
+height: 90%;
+padding: 10px 40px;
+gap: 10px;
+border-radius: 10px;
+  }
+  .contact form label{
+   color: var(--white);
+   font-size: 20px;
+  }
+  .contact form input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+   }
+   .contact .btn-submit{
+    margin-top: 15px;
+    cursor: pointer;
+   }
+   
