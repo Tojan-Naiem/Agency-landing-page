@@ -34,7 +34,7 @@
 }
 
 .info-cards .card {
-  width: 90%;
+  width: 80%;
   background-color: var(--card-color);
   padding: 90px 150px 0 150px;
   border: 1px solid var(--primary);
@@ -90,15 +90,15 @@
 
 }
 
-.card {
-  min-height: 500px;
-}
 
 @media (max-width: 480px) {
   .info-cards {
     grid-template-columns: 1fr;
     padding-left: 5px;
 
+  }
+  .hero{
+    height: 50vh;
   }
 
   .hero h1 {
